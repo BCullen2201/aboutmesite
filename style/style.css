@@ -1,0 +1,207 @@
+body {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #191919;
+  text-align: center; }
+
+.about {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #191919;
+  text-align: center; }
+
+.contact {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #191919;
+  text-align: center; }
+
+header {
+  background-color: black;
+  border-radius: 0.5em;
+  border: 3px solid white;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  width: auto; }
+  header a {
+    color: white; }
+  header .logo {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: red; }
+
+nav {
+  position: unset;
+  display: block;
+  width: auto;
+  height: auto;
+  background: none; }
+  nav ul {
+    display: flex;
+    margin: 0.4em;
+    list-style-type: none; }
+    nav ul a {
+      padding: .5em .6em; }
+  nav .navilist {
+    padding: 0%; }
+
+div .container {
+  margin: 0.5em; }
+div .hello {
+  background-color: black;
+  border-radius: 0.5em;
+  border: 3px solid white;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+  div .hello h1 {
+    margin: 0.3em 0;
+    font-size: 2.5rem;
+    font-style: italic; }
+  div .hello p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 1em; }
+  div .hello a {
+    color: cornflowerblue; }
+div .block1 {
+  background-color: black;
+  border-radius: 0.5em;
+  border: 3px solid white;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+  div .block1 h2 {
+    font-size: 2rem;
+    margin: 0.5em;
+    padding: 0; }
+  div .block1 p {
+    text-align: center;
+    padding: 0.8em 2em;
+    line-height: 1.4rem;
+    font-size: 1.07rem; }
+  div .block1 a {
+    color: cornflowerblue; }
+div .block2 {
+  background-color: black;
+  border-radius: 0.5em;
+  border: 3px solid white;
+  padding: 0.5em;
+  margin-bottom: 2em; }
+  div .block2 h2 {
+    font-size: 2rem;
+    font-style: italic;
+    margin: 0.5em;
+    padding: 0; }
+div .showandtell {
+  background-color: black;
+  border-radius: 0.5em;
+  border: 3px solid white;
+  padding: 0.5em;
+  margin-bottom: 2em; }
+  div .showandtell h2 {
+    margin: 0.5em;
+    font-size: 2rem;
+    font-style: italic; }
+  div .showandtell h3 {
+    margin: 0.5em;
+    font-style: italic; }
+  div .showandtell p {
+    font-weight: bold; }
+  div .showandtell a {
+    color: cornflowerblue;
+    font-weight: bold; }
+  div .showandtell ul {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none; }
+    div .showandtell ul li {
+      color: white; }
+  div .showandtell .con-links {
+    line-height: 2.5em; }
+  div .showandtell .specs-name {
+    font-weight: bold; }
+
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+h3 {
+  color: white; }
+
+p {
+  color: white; }
+
+a {
+  text-decoration: none;
+  background: none; }
+
+.goodbye {
+  border: 1px solid white;
+  border-radius: 0.5em;
+  padding: 1em 0.5em;
+  color: lightslategray;
+  background-color: black; }
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: Arial, Helvetica, sans-serif; }
+
+  .about {
+    margin: 1.5em 5em;
+    font-family: Arial, Helvetica, sans-serif; }
+
+  .contact {
+    margin: 1.5em 5em;
+    font-family: Arial, Helvetica, sans-serif; } }
+@media only screen and (min-width: 920px) {
+  body {
+    margin: 1em 13em; }
+
+  .about {
+    margin: 1em 13em; }
+
+  .contact {
+    margin: 1em 13em; }
+
+  nav {
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none; }
+    nav ul {
+      display: flex;
+      margin-top: 0.3em; }
+      nav ul a {
+        color: white;
+        font-size: .9rem; }
+        nav ul a:hover {
+          background: none;
+          color: cornflowerblue;
+          text-decoration: underline; }
+
+  header .logo:hover {
+    color: darkred; }
+
+  .block2 a:hover {
+    text-decoration: underline; }
+
+  .showandtell a:hover {
+    text-decoration: underline; } }
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 1em 26em; }
+
+  .about {
+    margin: 1em 26em; }
+
+  .contact {
+    margin: 1em 26em; } }
+
+/*# sourceMappingURL=style.css.map */

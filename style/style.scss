@@ -1,0 +1,304 @@
+// unless specified, all selectors are for index.html
+body {
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    text-align: center;
+}
+
+.about {
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    text-align: center;
+}
+
+.contact {
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    border-radius: 0.5em;
+    border: 3px solid white;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+    a {
+        color: white;
+    }
+
+    .logo {
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: red;
+    }
+}
+
+nav {
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+
+    ul {
+        display: flex;
+        margin: 0.4em;
+        list-style-type: none;
+
+        a {
+            padding: .5em .6em;
+        }
+    }
+
+    .navilist {
+        padding: 0%;
+    }
+}
+
+div {
+    .container {
+        margin: 0.5em;
+    }
+
+    .hello {
+        background-color: black;
+        border-radius: 0.5em;
+        border: 3px solid white;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+
+        h1 {
+            margin: 0.3em 0;
+            font-size: 2.5rem;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 0 1em;
+        }
+		
+		a {
+			color: cornflowerblue;
+		}
+    }
+
+    .block1 {
+        background-color: black;
+        border-radius: 0.5em;
+        border: 3px solid white;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+
+        h2 {
+            font-size: 2rem;
+            margin: 0.5em;
+            padding: 0;
+        }
+
+        p {
+            text-align: center;
+            padding: 0.8em 2em;
+            line-height: 1.4rem;
+            font-size: 1.07rem;
+        }
+		
+		a {
+			color: cornflowerblue;
+		}
+    }
+
+    .block2 {
+        background-color: black;
+        border-radius: 0.5em;
+        border: 3px solid white;
+        padding: 0.5em;
+        margin-bottom: 2em;
+
+        h2 {
+            font-size: 2rem;
+            font-style: italic;
+            margin: 0.5em;
+            padding: 0;
+        }
+    }
+
+    .showandtell { // about.html
+        background-color: black;
+        border-radius: 0.5em;
+        border: 3px solid white;
+        padding: 0.5em;
+        margin-bottom: 2em;
+
+        h2 {
+            margin: 0.5em;
+            font-size: 2rem;
+            font-style: italic;
+        }
+		
+		h3 {
+			margin: 0.5em;
+			font-style: italic;
+		}
+        
+        p {
+            font-weight: bold;
+        }
+
+        a {
+            color: cornflowerblue;
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-top: 0;
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                color: white;
+            }
+        }
+
+        .con-links {
+            line-height: 2.5em;
+        }
+
+        .specs-name {
+            font-weight: bold;
+        }
+    }
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+}
+
+.goodbye { // footer
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+    color: lightslategray;
+    background-color: black;
+}
+
+@media only screen and (min-width: 680px) { // for tablets, iPad, ect...
+    body {
+        margin: 1.5em 5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .about {
+        margin: 1.5em 5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contact {
+        margin: 1.5em 5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 920px) { // start of desktop
+    body {
+        margin: 1em 13em;
+    }
+
+    .about {
+        margin: 1em 13em;
+    }
+
+    .contact {
+        margin: 1em 13em;
+    }
+    
+    nav {
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+
+        ul {
+            display: flex;
+            margin-top: 0.3em;
+
+            a {
+                color: white;
+                font-size: .9rem;
+
+                &:hover {
+                    background: none;
+                    color: cornflowerblue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    header {
+        .logo {
+            &:hover {
+                color: darkred;
+            }
+        }
+    }
+
+    .block2 {
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .showandtell {
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 1em 26em;
+    }
+
+    .about {
+        margin: 1em 26em;
+    }
+
+    .contact {
+        margin: 1em 26em;
+    }
+}
